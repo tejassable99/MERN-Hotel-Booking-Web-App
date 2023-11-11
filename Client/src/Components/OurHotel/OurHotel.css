@@ -1,0 +1,148 @@
+.discimg{
+    border: 3px solid gray;
+   
+}
+.discimg:hover{
+  
+    border:6px solid gray ;
+}
+.discheading{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.discsubheadding{
+    font-size: 20px;
+    font-weight:lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.custom-card {
+    margin: 20px;
+     width: 30rem;
+     margin-left: 10rem;
+     height: 30rem;
+     border: none;
+     border-radius: 10px;
+     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+   }
+   
+   .custom-card-img {
+     height: 200px;
+     object-fit: cover;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+   }
+   .custom-card-img:hover{
+    animation: forwards;
+   }
+   
+   .card-title {
+     font-size: 1.25rem;
+     font-weight: bold;
+   }
+   
+   .card-text {
+     font-size: 1rem;
+   }
+   
+   .custom-icon-container {
+     margin-top: 10px;
+   }
+   
+   .custom-icon {
+     font-size: 3rem; 
+   }
+   
+   .custom-btn {
+     margin-top: 10px;
+   }
+   
+   .Amenities-container{
+    margin-top: 3rem;
+   }
+   
+h1{
+    font-size: calc(3.375rem + 2.5vw);
+    font-weight: bold;
+    padding: 30px 50px;
+}
+.imgs{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px;
+      
+}
+.container {
+  /* background-image: url('https://i.pinimg.com/originals/81/3f/06/813f0674503ef8f1a14a2c32ef8ae63d.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 3rem 60px 10px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  justify-content: center;
+  
+
+}
+
+.headding {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  /* line-height: 2.5 rem; */
+ 
+}
+
+.msg {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.name {
+  font-size: 18px;
+  color: white;
+  
+}
+
+.galarydiv{
+    padding: 10px;
+}
+
+
+/* hover effect css  */
+
+.grow {
+  transition: 1s ease;
+  }
+  
+  .grow :hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+  }
+
+
+
+  .shrink img {
+    transition: 1s ease;
+    }
+    
+    .shrink img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
+
+
+

@@ -1,0 +1,149 @@
+.container-contact{
+    display: flex;
+    flex-wrap: wrap;  
+    align-items: center;
+    justify-content: center;
+}
+.contact-form {
+    width: 500px;
+    border-radius: 5px;
+    margin-right: 100px;
+    margin-top: 100px;
+  
+  }
+  
+  .contact-form .contact-header {
+    margin-bottom: 2rem;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form textarea {
+    height: 100px;
+  }
+  
+  .contact-form input[type="submit"] {
+    background-color: #a5763e;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .contact-form input[type="submit"]:hover {
+    background-color: #333;
+  }
+  .addresscard {
+    width: 450px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+ 
+  }
+  
+  .addresscard .header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .addresscard .address
+  {
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .addresscard .address p{
+   margin-left: 15px;
+}
+  .addresscard .contact-info,
+  .addresscard .contact-phone {
+display: flex;
+flex-wrap: wrap;
+
+  }
+  .addresscard .contact-info p,
+  .addresscard .contact-phone p{
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    margin: 0px 20px 0px;
+    color: black;
+  }
+
+  .addresscard .contact-info :hover,
+  .addresscard .contact-phone :hover{
+    color: #a5763e;
+  }
+
+  .container-div {
+    background-image: url('https://media.architecturaldigest.com/photos/57e42deafe422b3e29b7e790/master/pass/JW_LosCabos_2015_MainExterior.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding: 150px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+    
+  
+}
+
+.contact-headding {
+    margin-bottom: 10px;
+    color: #FFF;
+    font-size: 3rem;
+    line-height: 2.5 rem;
+}
+
+.contact-msg {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 1rem 0;
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.card{
+ width: 26rem;
+ padding: 2rem;
+ margin-left: 200px;
+ margin-top: 30px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+  
+.contact-card{
+  background-color:#F3FDE8 ;
+  padding: 2rem;
+ 
+}
+.dsply-flx{
+  display: flex;
+  padding: 10px;
+}
+.dsply-flx p{
+  margin: 0px 1.5rem;
+}
+
+  
+
+

@@ -1,0 +1,40 @@
+.container-Rooms {
+    background-image: url('http://bizwatchnigeria.ng/wp-content/uploads/2015/08/hotel-room.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding: 150px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+    
+  
+}
+.Rooms-headding {
+    margin-bottom: 10px;
+    color: #FFF;
+    font-size: 3rem;
+    line-height: 2.5 rem;
+}
+.Rooms-msg {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 1rem 0;
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.Rooms-subhead{
+    text-align: center;
+    padding: 2rem;
+    margin: 5rem;
+}
+.subhead-description {
+    color:#4f4f4f;
+    font-size: medium;
+    line-height: 2rem;
+}

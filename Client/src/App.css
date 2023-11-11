@@ -1,0 +1,226 @@
+.div{
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  background-color: #e1e1e1;
+  padding: 50px;
+  
+}
+
+.font{
+  font-weight: 700;
+}
+
+.topfont{
+  color: #C69F71;
+  font-family: 'Dancing Script',cursive;
+  font-size: 36px;
+  top: -10px;
+}
+
+.explore{
+  text-align: center;
+  padding: 50px;
+}
+
+.margin{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+ 
+.dfelx{
+  display: flex;
+  width: 100%;
+  height: 400px;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.pic {
+  height:150px;
+  width:150px;
+}
+.main {
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 3%;
+  margin-left: 5%;
+
+
+}
+
+.div2{
+  width: 100%;
+  height: 900px;
+  text-align: center;
+  background-color: #e1e1e1;
+  padding: 50px;
+  
+}
+
+.image-container {
+  text-align: center; /* Center aligns the image and caption */
+}
+
+.caption {
+  margin-top: 10px; /* Adds some space between the image and caption */
+  font-weight: 700;
+  font-size:xx-large;
+}
+
+/* ReservationDiv.css */
+.reservation-div {
+   background-color:black; 
+  padding: 10px ;
+  /* margin-top: 20px; */
+
+}
+
+.reservation-div h2 {
+  font-size: 18px;
+}
+
+.reservation-div p {
+  font-size: 16px;
+}
+
+.reservation-div .ui.button {
+  margin-top: 20px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column; /* Align vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 100%; /* Adjust the height as needed */
+  /* Add any additional styles or adjustments here */
+}
+
+
+.about {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  flex-direction: row;
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Optional: Set the container height to the viewport height for vertical centering */
+  margin-top: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* login comp css */
+
+
+
+.login{
+  /* Center-align an element both horizontally and vertically */
+position: absolute;
+top: 50%;
+left: 85%;
+transform: translate(-50%, -50%);
+height: max-content;
+width: 25%;
+
+}
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  /* Add any additional styling or customization here */
+}
+
+/* Optional: Apply styles to the content within the container */
+/* App.css */
+
+.fu {
+  position: absolute;
+  top: 10%;
+  right: 55%;
+  transform: translate(50%, 50%);
+  height: max-content;
+  width: 25%;
+}
+
+.fa {
+  position: fixed;
+  width: 100%;
+}
+
+.yellow-page {
+  background-color: yellow;
+  height: 100vh; /* Set the height to cover the entire viewport */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  /* Add any other styles as needed */
+}
+
+
+.d1 {
+  /* border:2px solid black; */
+  width:80%;
+  height: 800px;
+  margin:50px;
+  text-align: center;
+  
+}
+.pic {
+  height:300px;
+  width:10%;
+}
+
+
+
+
+
+
+
+/* hover effect css  */
+
+.grow img{
+  transition: 1s ease;
+  }
+  
+  .grow img:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+  }
+
+
+
+.shrink img {
+transition: 1s ease;
+}
+
+.shrink img:hover{
+-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease;
+}
