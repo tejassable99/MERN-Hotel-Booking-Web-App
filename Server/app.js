@@ -9,7 +9,7 @@ app.use(express.json())
 app.use(cors())
 app.use(route)
 
-app.listen(9000,()=>
+app.listen(port,()=>
 {
-    console.log("server on ")
+    console.log(`server on ${port}`)
 })
