@@ -21,7 +21,7 @@ let[searchit,setSearchit]=useState([])
    
   useEffect(() => {
     uid = sessionStorage.getItem("id");
-    axios.get("http://localhost:9000/UserInfo")
+    axios.get("https://mern-hotel-booking-web-app-git-main-tejas-projects-c8790610.vercel.app/UserInfo")
       .then((response) => {
         setData(response.data);
         console.log(response.data);

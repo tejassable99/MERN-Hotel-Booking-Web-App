@@ -82,7 +82,7 @@ const signUp = () => {
     SetmsgAlert(false)
   } else {
     axios
-      .post("http://localhost:9000/signUp", { id, name, pass, phNumber, firstName, lastName })
+      .post("https://mern-hotel-booking-web-app-git-main-tejas-projects-c8790610.vercel.app/signUp", { id, name, pass, phNumber, firstName, lastName })
       .then((res) => {
         msg = res.data;
         if (msg === false) {
@@ -160,7 +160,7 @@ if(name=="admin123@gmail.com" && pass=="admin123"){
     SetmsgAlert(true)
   } else{
 
-  axios.get(`http://localhost:9000/signIn/${name}/${pass}`)
+  axios.get(`https://mern-hotel-booking-web-app-git-main-tejas-projects-c8790610.vercel.app/signIn/${name}/${pass}`)
     .then((res) => {
        u = res.data;
 
@@ -189,7 +189,7 @@ if(name=="admin123@gmail.com" && pass=="admin123"){
    const remove=()=>
    {
     console.log(uid)
-    axios.delete(`http://localhost:9000/removeUser/${uid}`).then((res)=> console.log("delete"+res) ).catch((e)=> console.log("error "))
+    axios.delete(`https://mern-hotel-booking-web-app-git-main-tejas-projects-c8790610.vercel.app/${uid}`).then((res)=> console.log("delete"+res) ).catch((e)=> console.log("error "))
    }
 
  

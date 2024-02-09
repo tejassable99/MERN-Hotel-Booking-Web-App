@@ -335,7 +335,7 @@ const bookMongo = () => {
     alert("Select both dates");
   } else {
     axios
-      .post("http://localhost:9000/saveData", {
+      .post("https://mern-hotel-booking-web-app-git-main-tejas-projects-c8790610.vercel.app/saveData", {
         Bno,
         uid,
         totalChildrenBf,

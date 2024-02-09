@@ -21,7 +21,7 @@ let uid;
         
          uid=sessionStorage.getItem("id");
     
-    fetch("http://localhost:9000/bookingInfo")
+    fetch("https://mern-hotel-booking-web-app-git-main-tejas-projects-c8790610.vercel.app/bookingInfo")
     .then((res)=> res.json())
     .then((temp)=> setData(temp))
     .catch((e)=>console.log(e) )
@@ -40,7 +40,7 @@ let uid;
       const remove = (jkuid, jkBno) => {
         console.log(jkuid + "anknd" + jkBno);
       
-        axios.delete(`http://localhost:9000/cancelBooking/${jkuid}/${jkBno}`)
+        axios.delete(`https://mern-hotel-booking-web-app-git-main-tejas-projects-c8790610.vercel.app/cancelBooking/${jkuid}/${jkBno}`)
           .then((res) => {
             console.log(res);
             // Display SweetAlert on success
