@@ -103,6 +103,7 @@ const signUp = () => {
       })
       .catch((e) => setMsg(e));
   }
+  console.log(takenMsg);
 };
 
 
@@ -296,7 +297,11 @@ onClick={handleFlag}
     :
     <div className='login'>
     <Segment>
-    {signUpmsg==true?  <Message color='red'>Fill All Mandatory Fields</Message>:takenMsg==true?<Message color='red'>Username Already Taken!!!</Message>:usernameValidation==true?<Message color='red'>Invalid Username!!!</Message>: null}
+    {signUpmsg && <Message color='red'>Fill All Mandatory Fields</Message>}
+{takenMsg && <Message color='red'>Username Already Taken!!!</Message>}
+{usernameValidation && <Message color='red'>Invalid Username!!!</Message>}
+
+    {/* {signUpmsg==true?  <Message color='red'>Fill All Mandatory Fields</Message>:takenMsg==true?<Message color='red'>Username Already Taken!!!</Message>:usernameValidation==true?<Message color='red'>Invalid Username!!!</Message>: null} */}
       <Header as='h1' icon textAlign='center'>
         <Icon name="users" iconPosition="right" size='massive' color='blue' />
         <Header.Content>SignUp</Header.Content>
