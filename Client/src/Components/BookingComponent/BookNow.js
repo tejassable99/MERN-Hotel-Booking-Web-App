@@ -115,20 +115,20 @@ let nav =useNavigate()
 
        const roomRateBf = 55497; // Cost per room per night
 
-       useEffect(() => {
-          // Load saved values from local storage when the component mounts
-         const savedListRoomBf = JSON.parse(localStorage.getItem('ListRoomBf'));
-         if (savedListRoomBf) {
-           setListRoomBf(savedListRoomBf);
-         }
-       }, []);
+      //  useEffect(() => {
+      //     // Load saved values from local storage when the component mounts
+      //    const savedListRoomBf = JSON.parse(localStorage.getItem('ListRoomBf'));
+      //    if (savedListRoomBf) {
+      //      setListRoomBf(savedListRoomBf);
+      //    }
+      //  }, []);
 
 
      
-       useEffect(() => {
-          // Save room data to local storage when ListRoom changes
-         localStorage.setItem('ListRoomBf', JSON.stringify(ListRoomBf));
-       }, [ListRoomBf]);
+      //  useEffect(() => {
+      //     // Save room data to local storage when ListRoom changes
+      //    localStorage.setItem('ListRoomBf', JSON.stringify(ListRoomBf));
+      //  }, [ListRoomBf]);
      
 
 
@@ -206,20 +206,20 @@ let[premiumBillBf,setPremiumBillBf]=useState()
 
       const roomRate = 22497; // Cost per room per night
 
-      useEffect(() => {
-         // Load saved values from local storage when the component mounts
-        const savedListRoom = JSON.parse(localStorage.getItem('ListRoom'));
-        if (savedListRoom) {
-          setListRoom(savedListRoom);
-        }
-      }, []);
+      // useEffect(() => {
+      //    // Load saved values from local storage when the component mounts
+      //   const savedListRoom = JSON.parse(localStorage.getItem('ListRoom'));
+      //   if (savedListRoom) {
+      //     setListRoom(savedListRoom);
+      //   }
+      // }, []);
 
 
     
-      useEffect(() => {
-         // Save room data to local storage when ListRoom changes
-        localStorage.setItem('ListRoom', JSON.stringify(ListRoom));
-      }, [ListRoom]);
+      // useEffect(() => {
+      //    // Save room data to local storage when ListRoom changes
+      //   localStorage.setItem('ListRoom', JSON.stringify(ListRoom));
+      // }, [ListRoom]);
     
 
 
